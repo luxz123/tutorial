@@ -1,0 +1,25 @@
+{
+  "name": "luxzz-proxy-factory",
+  "version": "5.0.0",
+  "description": "24/7 Automated Proxy Generation Factory",
+  "main": "proxy_factory.js",
+  "scripts": {
+    "start": "node proxy_factory.js",
+    "start:forever": "forever start proxy_factory.js",
+    "stop": "forever stop proxy_factory.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "axios": "^1.5.0",
+    "node-cron": "^3.0.2"
+  },
+  "keywords": [
+    "proxy",
+    "telegram",
+    "bot",
+    "automation",
+    "24/7"
+  ],
+  "author": "Rebel Genius",
+  "license": "MIT"
+}
